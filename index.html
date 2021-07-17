@@ -24,7 +24,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link nav__icon">
                                 <i class="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
@@ -80,11 +80,78 @@
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
-                
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/sohampoddar/"  target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                        
+                            <a href="https://dribbble.com/sohampod" target="_blank" class="home__social-icon">
+                                <i class="uil uil-dribbble"></i>
+                            </a>
+
+                            <a href="https://github.com/sohampod" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+
+                            <a href="https://behance.net/sohampoddar" target="_blank"  class="home__social-icon">
+                                <i class="uil uil-behance-alt"></i>
+                            </a>
+                        </div>
+                        <div class="home__img">
+                            <svg clss="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                                    <image class="home__blob-img" xlink:href="assets/img/pfp.png"/>
+                                </g>
+                            </svg>                            
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Hey, I am Soham</h1>
+                            <h3 class="home__subtitle">UI/UX Designer</h3><br>
+                            <p class="home__description">Experienced in UI/UX development and Machine Learning, producing quality work.</p><br>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>    
+
+                </div>
             </section>
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">nothing much</span>
+
+                <div class="about__container container grid">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#E05757" d="M59.1,-49.3C68.5,-35.3,62.4,-11.2,55.2,9.5C48,30.3,39.7,47.7,24.7,57.2C9.6,66.7,-12.1,68.4,-32.3,61C-52.6,53.6,-71.4,37.1,-76.6,16.7C-81.9,-3.6,-73.6,-27.8,-58.5,-43.1C-43.5,-58.3,-21.8,-64.6,1.5,-65.8C24.9,-67.1,49.7,-63.3,59.1,-49.3Z" transform="translate(100 100)" />
+                      </svg>
+                      
+                      
+                    <div class="about__data">
+                        <p class="about__description">Bascially, UI Designer with knowledge in UX development and have some years of experience, comfortable with C++ and has a knack for Machine Learning, overall trying to deliver quality work</p>
+                    </div>
+                </div>
 
         
             </section>
