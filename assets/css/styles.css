@@ -185,8 +185,7 @@ img{
 }
 
 .nav__logo:hover{
-    color: var(--first-color);
-
+    color: hsl(250, 69%, 61%);
 }
 
 .nav__toggle{
@@ -195,7 +194,7 @@ img{
 }
 
 .nav__toggle:hover{
-    color: var(--first-color);
+    color: hsl(250, 69%, 61%);
 }
 
 @media screen and (max-width: 767px){
@@ -203,7 +202,7 @@ img{
         position: fixed;
         bottom: 0;
         left: 0;
-        width: 100px;
+        width: 100%;
         background-color: var(--body-color);
         padding: 2rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
@@ -213,6 +212,35 @@ img{
         
     }
 }
+
+
+.nav__list{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    
+}
+
+.nav__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+
+}
+
+.nav__link:hover{
+    color: hsl(250, 69%, 61%);
+
+}
+
+.nav__icon{
+    font-size: 1rem;
+
+} 
+
+
 
 
 /* show menu */
