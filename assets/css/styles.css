@@ -101,7 +101,7 @@ h1,h2,h3,h4{
 
 }
 
-u1{
+ul{
     list-style: none;
 
 }
@@ -123,24 +123,26 @@ img{
 
 }
 
-.section_title{
+.section__title{
     font-size: var(--h1-font-size);
 }
 
-.section_subtitle{
+.section__subtitle{
     display: block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-3);
 }
 
 
-.section_title,
-.section_subtitle{
+.section__title,
+.section__subtitle{
     text-align: center;
 
 }
 
 /*==================== LAYOUT ====================*/
+
+
 .container{
     max-width: 768px;
     margin-left: var(--mb-1-5);
@@ -155,7 +157,7 @@ img{
 }
 
 .header{
-    width: 100px;
+    width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
