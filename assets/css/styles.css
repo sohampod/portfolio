@@ -87,7 +87,10 @@ html {
 
 }
 
-
+body{
+    width: 100%;
+    height: 100vh;
+}
 
 
 body{
@@ -96,6 +99,7 @@ body{
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
+
 
 }
 

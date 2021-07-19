@@ -59,3 +59,10 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
 /*==================== DARK LIGHT THEME ====================*/ 
+
+
+
+
+
+
+/*==================== SCROLL SMOOTH ====================*/ 
