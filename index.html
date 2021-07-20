@@ -4,9 +4,19 @@
         
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="dist/smooth-scrollbar.js"></script>
+
+<script>
+  var Scrollbar = window.Scrollbar;
+
+  Scrollbar.init(document.querySelector('#my-scrollbar'), options);
+</script>
 
         <!--==================== UNICONS ====================-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        
+        
         
         
         <!--==================== SWIPER CSS ====================-->
@@ -78,6 +88,9 @@
         </header>
 
         <!--==================== MAIN ====================-->
+        <scrollbar>
+            <div class="scroll-content">
+
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
@@ -317,6 +330,14 @@
 
 
             </section>
+            </div>
+    <div class="scrollbar-track scrollbar-track-x">
+        <div class="scrollbar-thumb scrollbar-thumb-x"></div>
+    </div>
+    <div class="scrollbar-track scrollbar-track-y">
+        <div class="scrollbar-thumb scrollbar-thumb-y"></div>
+    </div>
+</scrollbar>
 
             <!--==================== QUALIFICATION ====================-->
             <section class="qualification section">
@@ -370,11 +391,7 @@
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
         
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
-
+        
 
     </body>
 </html>
